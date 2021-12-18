@@ -228,7 +228,7 @@ for(i in 1:230)
   }
 
 
-#-----------changes ude to insufficient categories--------------
+#-----------changes due to insufficient categories--------------
 #change Luxemburg census to 2001
 #change Mauritania census to 1977
 dataSELECT2=setdiff(dataSELECT2,filter(dataSELECT2,Country%in%c('Luxembourg','Mauritania')))
